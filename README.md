@@ -1,2 +1,2 @@
-# Web-Technologies-Assignment
+# Web-Technologies-Assignments
 
