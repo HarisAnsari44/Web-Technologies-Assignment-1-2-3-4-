@@ -1,0 +1,61 @@
+/* Basic page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-image :  url("images.jpg");  
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Headings */
+h1 {
+  color: rgb(131, 204, 89);
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffd54f;
+  margin-top: 40px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+}
+
+/* Experiment list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+}
+
+ul li:hover {
+  background: rgba(151, 66, 66, 0.3);
+}
+
+a {
+  color: rgb(64, 207, 226);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(59, 150, 150);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #3799a7;
+}
