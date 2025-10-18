@@ -1,7 +1,7 @@
 /* Basic page setup */
 body {
   font-family: Arial, sans-serif;
-  background-image :  url("images.jpg");  
+ background: url("images.jpg") no-repeat center center fixed; 
   background-size: cover;
   background-position: center;
   color: white;
@@ -10,23 +10,25 @@ body {
   padding: 40px;
 }
 
-/* Headings */
 h1 {
   color: rgb(131, 204, 89);
   margin-bottom: 10px;
 }
 
 h2 {
-  color: #ffd54f;
+  color: #fcd452;
   margin-top: 40px;
 }
+.underline {
+  text-decoration: underline;
+}
 
-/* Paragraphs */
+
+
 p {
   font-size: 18px;
 }
 
-/* Experiment list */
 ul {
   list-style: none;
   padding: 0;
@@ -53,7 +55,6 @@ a:hover {
   color: rgb(59, 150, 150);
 }
 
-/* Footer */
 footer {
   margin-top: 40px;
   font-size: 14px;
