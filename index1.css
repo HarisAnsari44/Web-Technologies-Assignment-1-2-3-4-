@@ -1,7 +1,7 @@
 /* Basic page setup */
 body {
   font-family: Arial, sans-serif;
- background: url("images.jpg") no-repeat center center fixed; 
+ background: url("images.jpg") center fixed; 
   background-size: cover;
   background-position: center;
   color: white;
