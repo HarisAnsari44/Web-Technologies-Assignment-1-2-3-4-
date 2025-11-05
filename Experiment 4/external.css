@@ -1,11 +1,11 @@
 body {
- background-color: lightyellow;
+ background-color: rgb(148, 148, 91);
  }
  h3 {
  color: rgb(77, 108, 122);
  text-decoration: underline;
  }
- p {
- color: rgb(119, 175, 28);
+ .external {
+ color: rgb(115, 31, 46);
  font-size: 14px;
  }

@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-  <!-- Inline CSS-->
+<link rel="stylesheet" type="text/css" href="external.css">
  <h1 style="color: rgb(18, 131, 46); text-align: center;">Welcome to Lab 4</h1>
- <p style="color: rgb(44, 66, 155); font-size: 18px;">This paragraph uses inline CSS.</p>
- <!-- Internal CSS-->
+ 
  <head>
  <style>
  h2 {
  color: rgb(235, 178, 72);
- font-family: Arial, sans-serif;
+ font-family:'Times New Roman', Times, serif;
  }
  p {
  font-size: 16px;
- line-height: 1.5;
+ line-height: 2;
  }
  </style>
-
 
  </head>
  
  <body>
+  <p style="color: rgb(44, 66, 155); font-size: 18px;">This paragraph uses inline CSS.<br>What is internal css?<br> An inline CSS is used to apply a unique style to a single HTML element.
+
+An inline CSS uses the style attribute of an HTML element.</p>
  <h2>Internal CSS Example</h2>
- <p>Web development refers to building, creating, and maintaining websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet, i.e., websites..</p>
+ <p>What is internal css? <br>An internal CSS is used to define a style for a single HTML page.
+    An internal CSS is defined in the head section of an HTML page, within a style element.This paragraph is styling by using internal CSS.</p>
  </body>
- <!-- External CSS-->
- <link rel="stylesheet" type="text/css" href="external.css">
+ 
  <h3>External CSS Example</h3>
- <p>This paragraph is styled using an external CSS file.</p>  
+ <p class="external">What is external css?<br>An external style sheet is used to define the style for many HTML pages.
+
+To use an external style sheet, add a link to it in the head section of each HTML page. This paragraph is styled using an external CSS file.</p>  
   <a href="../index.html">Back To Home Page</a>
 </body>
 </html>
