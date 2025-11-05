@@ -1,62 +1,49 @@
-/* Basic page setup */
 body {
-  font-family: Arial, sans-serif;
- background: url("images.jpg") center fixed; 
-  background-size: cover;
+font-family: Arial, sans-serif;
+  background: url("images.jpg") center fixed; 
+ background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
-  margin: 0;
+  margin: 20;
   padding: 40px;
 }
 
 h1 {
-  color: rgb(131, 204, 89);
-  margin-bottom: 10px;
+  color: rgba(112, 212, 54, 0.77);
 }
 
 h2 {
-  color: #fcd452;
+  color: rgb(242, 249, 29);
   margin-top: 40px;
 }
 .underline {
   text-decoration: underline;
 }
-
-
-
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 ul {
   list-style: none;
-  padding: 0;
+  padding:0;
 }
 
 ul li {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(5, 5, 5, 0.596);
   margin: 10px auto;
   padding: 10px;
-  width: 60%;
-  border-radius: 8px;
+  width: 70%;
+  border-radius: 10px;
 }
 
 ul li:hover {
-  background: rgba(151, 66, 66, 0.3);
+  background: rgba(144, 138, 152, 0.848);
 }
 
 a {
-  color: rgb(64, 207, 226);
-  text-decoration: none;
+  color: rgb(22, 215, 240);
+
 }
 
-a:hover {
-  color: rgb(59, 150, 150);
-}
 
-footer {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #3799a7;
-}
