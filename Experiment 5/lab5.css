@@ -10,7 +10,7 @@ p {
 
 .highlight {
   background-color: yellow;
-  font-style: italic;
+  
 }
 
 #main-title {
@@ -19,7 +19,7 @@ p {
 }
 
 h2, p, li {
-  border: 1px solid lightgray;
+  border: 1px solid rgb(89, 72, 170);
 }
 
 div p {
@@ -33,7 +33,6 @@ img[alt] {
   border: 2px solid black;
   width: 200px;
 }
-
 
 .hov:hover {
   color: red;
